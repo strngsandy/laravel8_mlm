@@ -9,6 +9,8 @@ class Generation extends Model
 {
     use HasFactory;
     protected $fillable = [
-
+        'main_id',
+        'member_id',
+        'gen_type',
     ];
 }
