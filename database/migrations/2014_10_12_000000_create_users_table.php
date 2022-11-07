@@ -26,7 +26,7 @@ return new class extends Migration
             $table->bigInteger('direct_group')->default(0);
             $table->bigInteger('total_group')->default(0);
             $table->tinyInteger('is_active')->default(0);
-            $table->string('active_date')->nullable;
+            $table->string('active_date')->default("0");
             $table->float('total_income')->default(0);
             $table->float('total_withdrawl')->default(0);
             $table->float('current_withdraw_request')->default(0);

@@ -4,12 +4,17 @@ namespace App\Http\Controllers\User\Auth;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\{User,Generation};
+use Hash;
 
 class RegisterController extends Controller
 {
-    public function index(){
+    
+    public function index()
+    {
         return view('auth.register');
     }
+
     public function search_sponsorid(Request $request)
     {
         $sponsor_id = $request->sponsor_id;
@@ -98,5 +103,8 @@ class RegisterController extends Controller
             }
         }
     }
-}
 
+
+
+
+}
