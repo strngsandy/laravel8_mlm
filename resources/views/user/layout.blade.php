@@ -116,7 +116,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="./examples/icons.html">
+            <a class="nav-link " href="{{route('user.profile')}}">
             <i class="ni ni-single-02 text-yellow"></i> Profile
             </a>
           </li>
